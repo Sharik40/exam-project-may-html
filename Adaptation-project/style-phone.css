@@ -1,0 +1,294 @@
+@media screen and (max-width: 720px){
+    /*.main, .about-the-shelter, .our-pets, .help-the-shelter, .donation, .footer {*/
+    /*    width: 320px;*/
+    /*}*/
+
+    body {
+        width: 320px;
+
+    }
+
+    .main {
+        margin: 0 auto;
+        width: 320px;
+        height: 823px;
+        background: url("img/start-screen-gradient-background-mobile.png");
+    }
+
+    .header {
+        margin: 30px 0 60px 10px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .start-screen {
+        width: 300px;
+        height: 673px;
+        flex-direction: column;
+        gap: 105px;
+        padding-bottom: 5px;
+        align-items: flex-end;
+    }
+
+    .start-screen-text h1 {
+        color: #FFF;
+        text-align: center;
+        /* h3-mobile */
+        font-family: Georgia, sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 130%; /* 32.5px */
+        letter-spacing: 1.5px;
+        height: 64px;
+        padding: 0 30px;
+    }
+
+    .start-screen-text {
+        width: 300px;
+        align-items: center;
+    }
+
+    .start-screen-text p {
+        width: 300px;
+        text-align: center;
+    }
+
+    .start-screen-picture {
+        width: 260px;
+        height: 272px;
+    }
+    .start-screen-picture img {
+        width: 260px;
+        height: 272px;
+    }
+
+    h2 {
+        text-align: center;
+        /* h3-mobile */
+        font-size: 25px;
+        line-height: 130%; /* 32.5px */
+        letter-spacing: 1.5px;
+        width: 100%;
+    }
+
+    .about-text p {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .about-the-shelter {
+        width: 320px;
+        height: 974px;
+    }
+
+    .about-box {
+        width: 300px;
+        height: 890px;
+        flex-direction: column-reverse;
+        margin: 42px auto;
+        gap: 42px;
+    }
+
+    .about-text {
+        width: 300px;
+        height: 494px;
+        justify-content: space-between;
+    }
+
+    .about-picture {
+        width: 260px;
+        height: 353px;
+    }
+
+    .about-picture img {
+        width: 260px;
+        height: 353px;
+    }
+
+    .about-text:first-child {
+        width: 270px;
+        height: 144px;
+    }
+
+    .about-text:last-child {
+        width: 270px;
+    }
+
+    .our-pets-cards>div:nth-child(2) {
+        display: none;
+    }
+
+    .our-pets-cards>div:nth-child(3) {
+        display: none;
+    }
+
+    .our-pets {
+        width: 320px;
+        height: 791px;
+    }
+
+    .our-pets-content {
+        width: 300px;
+        height: 707px;
+        margin: 42px auto;
+        gap: 0;
+        justify-content: flex-start;
+    }
+
+    .our-pets-content h2 {
+        margin-bottom: 42px;
+        height: 64px;
+    }
+
+    .our-pets-cards {
+        margin-bottom: 72px;
+        width: 270px;
+    }
+
+    .our-pets-content h2 {
+        width: 220px;
+        height: 64px;
+    }
+    .help-the-shelter {
+        width: 100%;
+        height: 745px;
+    }
+
+    .help-content {
+        width: 290px;
+        height: 661px;
+        margin: 42px auto;
+        gap: 30px;
+    }
+
+    .help-list svg {
+        width: 50px ;
+        height: 50px ;
+    }
+
+    .help-list-text {
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+
+    .help-list {
+        width: 290px;
+        height: 555px;
+        gap: 30px;
+        row-gap: 30px;
+        justify-content: flex-start;
+    }
+
+    .help-list-element {
+        width: 130px;
+        height: 87px;
+        gap: 20px;
+    }
+
+    .donation {
+        width: 100%;
+        height: 542px;
+    }
+
+    .donation-content {
+        width: 300px;
+        height: 458px;
+        margin: 42px auto;
+        gap: 42px;
+        flex-direction: column-reverse;
+    }
+
+    .donation-text h3 {
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+
+    .donation-text {
+        width: 300px;
+        height: 281px;
+        align-items: center;
+    }
+
+    .credit-text {
+        line-height: 160%;
+        letter-spacing: normal;
+    }
+
+    .credit-card {
+        width: 281px;
+    }
+
+    .donation-text h4 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+
+    .donation-text p {
+        width: 280px;
+        height: 90px;
+        text-align: justify;
+    }
+
+    .donation-content img {
+        width: 260px;
+        height: 135px;
+    }
+
+    .footer-content img {
+        width: 260px;
+        height: 269px;
+    }
+
+    .footer-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px auto 0 auto;
+        height: 470px;
+        gap: 40px;
+    }
+    .footer-info h3 {
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        width: 270px;
+        height: 65px;
+    }
+
+    .mail>.footer-svg-info {
+        width: 251px;
+    }
+
+    .footer-svg-info h4 {
+        width: 260px;
+    }
+    .footer {
+        width: 100%;
+        height: 809px;
+        background: url("img/footer-gradient-background-mobile.png");
+    }
+
+    .footer-info {
+        margin-top: 0;
+        width: 300px;
+        height: 222px;
+        align-items: center;
+    }
+
+    .location {
+        width: 300px;
+        height: 222px;
+        gap: 40px;
+    }
+
+    .mail {
+        width: 278px;
+        height: 208px;
+    }
+}
