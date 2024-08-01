@@ -1,8 +1,4 @@
-@media screen and (max-width: 720px){
-    /*.main, .about-the-shelter, .our-pets, .help-the-shelter, .donation, .footer {*/
-    /*    width: 320px;*/
-    /*}*/
-
+@media screen and (max-width: 320px){
     body {
         width: 320px;
 

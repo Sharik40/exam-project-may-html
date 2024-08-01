@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-    margin-top: 27px;
+    /*margin-top: 27px;*/
     width: 1280px;
     height: 908px;
     flex-shrink: 0;

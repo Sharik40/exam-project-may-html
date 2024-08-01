@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*margin-top: 400px;*/
+}
+
+.box {
+    width: 1440px;
+    height: 4976px;
+    background: #02061A;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.sun {
+    width: 590px;
+    height: 594px;
+    position: absolute;
+    fill: rgba(84, 197, 173, 0.95);
+    filter: blur(217px);
+    background: #54C5ADF2;
+    top: -245px;
+    left: -100px;
+    z-index: -1;
+}
+
+nav {
+    width: 1061px;
+    height: 35px;
+    margin: 92px auto 188px auto;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 47px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.herosec {
+    width: 1035px;
+    height: 498px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.herosec-text {
+    width: 533px;
+    height: 100%;
+}
+
+.herosec-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.herosec-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.herosec-text button {
+    width: 256px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #23263C;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+}
+
+.herosec-text button:last-child {
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    background: transparent;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.herosec-img {
+    width: 500px;
+    height: 100%;
+}
+
+.featured {
+    margin: 261px auto 200px auto;
+    width: 1080px;
+    height: 171px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.markets {
+    width: 1065px;
+    height: 125px;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.markets ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 138px;
+}
+
+.featured h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.markets a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
+.hero2 {
+    margin: 0 auto;
+    width: 1080px;
+    height: 634px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    flex-direction: row;
+}
+
+.hero2-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero2-content h2 {
+    height: 219px;
+    width: 542px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+}
+
+.hero2-content:nth-child(2) {
+    width: 521px;
+    color: #4C99BB;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px; /* 119.231% */
+}
+
+.hero2-content p:nth-child(3) {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    height: 100px;
+    line-height: 35px;
+    margin-top: 8px;
+}
+
+.front-btn, .back-btn {
+    width: 126px;
+    height: 68px;
+    background: transparent;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.btn-style {
+    margin: 7px 0 34px 0;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+}
+
+.hero2-colect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 542px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    gap: 44px;
+}
+
+.colect-content {
+    width: 140px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.arrow {
+}
+
